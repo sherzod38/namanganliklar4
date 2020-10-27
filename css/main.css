@@ -1,0 +1,451 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik',
+    sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p, a {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background: #F6F6F9;
+  margin-bottom: 59px;
+  height: 355px;
+  border-top: 4px solid #295093;
+  
+
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  margin-bottom: 44px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  margin-right: 70px;
+
+}
+
+.header-left h3 {
+  width: 304px;
+  height: 33px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  color: #295091;
+}
+
+.header-left p {
+  width: 258px;
+  height: 21px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #285193;
+}
+
+.header-right {
+  
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.header-right p {
+  display: block;
+}
+
+.header-left h3 {
+  margin-right: 8px;
+  background-color: #fff;
+}
+
+span {
+  margin-left: 10px;
+  
+  color: blue;
+  
+}
+
+.button1 {
+  padding: 14px 43px 12px 15px;
+  border: 0;
+  background: #FFFFFF;
+  border-radius: 5px;
+  margin: 0;
+  color: #CCCCCC;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+#a1 {
+  padding: 10px 10px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+#a2 {
+  padding: 10px 10px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  margin: 0 25px 0px 72px;
+  display: flex;
+  align-items: center;
+}
+
+#a2 img {
+  margin-bottom: 5px;
+  margin-right: 7px;
+}
+
+#a3 {
+  
+  padding: 13px 20px;
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+
+}
+
+#a3 img {
+  margin-right: 7px;
+}
+
+.ul1 {
+  display: flex;
+  justify-content: center;
+
+  height: 68px;
+
+
+
+  background: #FFFFFF;
+
+  border-radius: 5px;
+}
+
+li {
+  list-style-type: none;
+  padding: 22px 15px;
+  background: #FFFFFF;
+
+}
+
+.nav1 {
+  margin-bottom: 18px;
+
+}
+.qw {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 17px;
+  padding: 15px;
+  color: #000000;
+}
+form {
+  margin-bottom: 40px;
+}
+
+input {
+  display: block;
+  padding: 14px 430px 15px 16px;
+  margin-bottom: 20px;
+  background: #F1F1F1;
+  opacity: 0.3;
+  border: 2px solid #285193;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+}
+label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin: 17px 0 14px 0;
+}
+textarea {
+  width: 600px;
+  height: 307px;
+  background: #F1F1F1;
+  opacity: 0.3;
+  border: 2px solid #285193;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+#filem {
+  width: 221px;
+  height: 50px;
+  background: #FBFBFB;
+  opacity: 0.3;
+  border: 2px solid #285193;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+#pass {
+  width: 221px;
+  height: 50px;
+  background: #FBFBFB;
+  opacity: 0.3;
+  border: 2px solid #285193;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+button {
+  padding: 15px 60px;
+  background: #295093;
+  border: 2px solid rgba(40, 81, 147, 0.54);
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #FFFFFF;
+
+
+}
+.formi {
+  display: flex;
+  justify-content: space-between;
+}
+.main-right .di img {
+  position: absolute;
+  width: 329px;
+  height: 33px;
+  right: 20px;
+  top: 23px;
+  color: #295091;
+}
+
+
+.main-right {
+  position: relative;
+  display: flex;
+
+  width: 510px;
+  height: 280px;
+  background: #FFFFFF;
+  border: 2px solid #BCC3CD;
+  box-sizing: border-box;
+  border-radius: 5px;
+  
+  box-shadow: 0px 8px 9px rgba(66, 66, 66, 0.25);
+}
+.lefti {
+  position: absolute; 
+  top: 77px;  
+  left: 25px;     
+}
+.lefti p {
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #888888;
+}
+.righti .img3 {
+  position: absolute;
+  top: 124px;
+  right: 20px;
+
+}
+.righti .ki {
+  position: absolute;
+  top: 173px;
+  right: 20px;
+  padding: 6px 10px 6px 5px;
+  background: #295091;
+  border-radius: 5px;
+}
+
+.righti p {
+  position: absolute;
+  top: 77px;
+  right: 20px;
+}
+
+.ki a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  
+  color: #FFFFFF;
+}
+#hre {
+  display: flex;
+  align-items: center;
+}
+.ki img {
+  margin-right: 6px;
+  align-items: center;
+}
+
+.righti .img21 {
+  position: absolute;
+  top: 224px;
+  right: 20px;
+}
+
+
+footer {
+  background: #295093;
+  /* width: 1200px; */
+  height: 225px;
+}
+
+.top-footer-logo {
+  padding: 13px 36px;
+  background: #133C82;
+  border-radius: 5px;
+  color: #FFFFFF;
+
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  margin-bottom: 18px;
+
+}
+
+/* hr {
+  height: 3px;
+  background: #133C82;
+  margin-bottom: 15px;
+} */
+.footer-bottom {
+  border-top: 3px solid #133C82;
+  padding-top: 12px;
+  
+}
+.h3a {
+  display: flex;
+  align-items: center;
+}
+
+
+.top-footer-telegrem {
+  padding: 10px 10px 10px 10px;
+  display: block;
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 5px;
+  margin-left: 17px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #295093;
+}
+
+.top-footer-telegrem img {
+  margin-right: 8px;
+}
+
+.footer-top-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.footer-bottom {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.footer-about {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #FFFFFF;
+}
+
+.pastgi {
+  width: 163px;
+  height: 106px;
+
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+  background: #295093;
+  margin-left: 111px;
+}
+
+.pastgi .pas {
+  margin: 0;
+  padding: 0;
+  background: #295093;
+}
+
+.pastgi .pas a {
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 27px;
+}
+
+.pastgi .pas .pl {
+  width: 225px;
+
+
+
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #FFFFFF;
+}
+
+li {
+  list-style-type: none;
+}
